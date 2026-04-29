@@ -57,7 +57,7 @@ export default function Home() {
 
 
             <section className="section">
-                <div className="container intro-grid ">
+                <div className="container  ">
                     <div className="section-heading">
                         <p className="eyebrow">Positioning</p>
 
@@ -122,7 +122,7 @@ export default function Home() {
                         </article>
                     </div>
                     <div className="section-actions ">
-                        <a className="button button-secondary" href="services.html">View Full Services Framework</a>
+                        <a className="button button-secondary" href="/services">View Full Services Framework</a>
                     </div>
                 </div>
             </section>
@@ -134,51 +134,51 @@ export default function Home() {
                         <p className="panel-label">Capability Model</p>
                         <h3>From reactive execution to scalable organization</h3>
                         <p>Use the maturity framework to identify the structural gap between current effort and future scale.</p>
-                        <a className="text-link" href="capability-model.html">Explore the capability model</a>
+                        <a className="text-link" href="/capability-model">Explore the capability model</a>
                     </article>
                     <article className="preview-card">
                         <p className="panel-label">Engagement Models</p>
                         <h3>Three ways to engage based on stage and urgency</h3>
                         <p>Foundation Sprint, Build and Activate, and Scale and Expand help teams self-select the right starting point.</p>
-                        <a className="text-link" href="engagement-models.html">Compare engagement models</a>
+                        <a className="text-link" href="/engagement-models">Compare engagement models</a>
                     </article>
                     <article className="preview-card">
                         <p className="panel-label">Industries</p>
                         <h3>Adaptable across sectors without losing rigor</h3>
                         <p>See how Zerologic applies its model across SaaS, fintech, D2C, healthcare, AI, mobility, and more.</p>
-                        <a className="text-link" href="industries.html">View industries</a>
+                        <a className="text-link" href="/industries">View industries</a>
                     </article>
                 </div>
             </section>
 
             <section className="section ">
-        <div className="container">
-          <div className="section-heading ">
-            <p className="eyebrow">Proof</p>
-            <h2>Structured thinking and practical intervention logic.</h2>
-          </div>
-          <div className="proof-grid ">
-            <article className="proof-card">
-              <p className="proof-label">Transformation Snapshot</p>
-              <h3>Operating clarity for a growth-stage SaaS business</h3>
-              <p>Priorities, ownership, and review cadence were redesigned to support stronger execution.</p>
-            </article>
-            <article className="proof-card">
-              <p className="proof-label">Capability-Led Proof</p>
-              <h3>Execution architecture for new-market expansion</h3>
-              <p>Decision rights, rollout sequencing, KPI visibility, and operating readiness were clarified before activation.</p>
-            </article>
-            <article className="proof-card">
-              <p className="proof-label">Engagement Example</p>
-              <h3>Foundation Sprint for strategic reset</h3>
-              <p>A sharper path was built before broader execution work began.</p>
-            </article>
-          </div>
-          <div className="section-actions ">
-            <a className="button button-secondary" href="proof.html">View Proof Framework</a>
-          </div>
-        </div>
-      </section>
+                <div className="container">
+                    <div className="section-heading ">
+                        <p className="eyebrow">Proof</p>
+                        <h2>Structured thinking and practical intervention logic.</h2>
+                    </div>
+                    <div className="proof-grid ">
+                        <article className="proof-card">
+                            <p className="proof-label">Transformation Snapshot</p>
+                            <h3>Operating clarity for a growth-stage SaaS business</h3>
+                            <p>Priorities, ownership, and review cadence were redesigned to support stronger execution.</p>
+                        </article>
+                        <article className="proof-card">
+                            <p className="proof-label">Capability-Led Proof</p>
+                            <h3>Execution architecture for new-market expansion</h3>
+                            <p>Decision rights, rollout sequencing, KPI visibility, and operating readiness were clarified before activation.</p>
+                        </article>
+                        <article className="proof-card">
+                            <p className="proof-label">Engagement Example</p>
+                            <h3>Foundation Sprint for strategic reset</h3>
+                            <p>A sharper path was built before broader execution work began.</p>
+                        </article>
+                    </div>
+                    <div className="section-actions ">
+                        <a className="button button-secondary" href="/proof">View Proof Framework</a>
+                    </div>
+                </div>
+            </section>
 
 
             <section className="section">
@@ -215,10 +215,12 @@ export default function Home() {
                             If the next phase of growth requires more structure, this is where it begins.
                         </h2>
                     </div>
+                    <div className="section-actions">
+                        <a className="button button-primary" href="/contact">
+                            Request Strategic Consultation
+                        </a>
+                    </div>
 
-                    <a className="button button-primary" href="/contact">
-                        Request Strategic Consultation
-                    </a>
                 </div>
             </section>
 

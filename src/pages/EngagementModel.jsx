@@ -145,7 +145,7 @@ export const EngagementModel = () => {
             <p className="eyebrow">Consultation</p>
             <h2>Not every business needs the same entry point. The first conversation helps determine the right one.</h2>
           </div>
-          <a className="button button-primary" href="contact.html">Identify The Right Model</a>
+          <a className="button button-primary" href="/contact">Identify The Right Model</a>
         </div>
       </section>
     </>

@@ -90,6 +90,7 @@ export const Contact = () => {
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>
+            <h3>Share Your Situation</h3>
             <div className="form-grid">
 
               <label>
@@ -142,6 +143,7 @@ export const Contact = () => {
                   <option>Resetting direction and execution</option>
                 </select>
               </label>
+             
 
               <label>
                 Preferred engagement
@@ -153,6 +155,7 @@ export const Contact = () => {
                   <option>Need guidance on fit</option>
                 </select>
               </label>
+             
 
               <label className="full-span">
                 Primary challenge

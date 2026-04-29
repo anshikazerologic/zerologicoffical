@@ -100,7 +100,7 @@ export const Services = () => {
                         <p className="eyebrow">Consultation</p>
                         <h2>The right service path depends on whether the immediate need is clarity, execution architecture, activation, or scale readiness.</h2>
                     </div>
-                    <a className="button button-primary" href="contact.html">Discuss Your Current Stage</a>
+                    <a className="button button-primary" href="/contact">Discuss Your Current Stage</a>
                 </div>
             </section>
         </>

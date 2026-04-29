@@ -3,7 +3,7 @@ export default function PathwayDetail({ pathway }) {
 
     return (
         <div className="detail-panel" id="pathway-panel">
-            <span className="panel-label">{pathway.stage} stage</span>
+            <p className="panel-label">{pathway.stage} stage</p>
             <h3>{pathway.title}</h3>
             <p>{pathway.summary}</p>
 

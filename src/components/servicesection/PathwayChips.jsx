@@ -4,7 +4,7 @@ export default function PathwayChips({ pathways, activeId, onSelect }) {
       {pathways.map((p) => (
         <button
           key={p.id}
-          className={`chip ${p.id === activeId ? "active" : ""}`}
+          className={`chip ${p.id === activeId ? "is-active" : ""}`}
           onClick={() => onSelect(p.id)}
         >
           {p.label}

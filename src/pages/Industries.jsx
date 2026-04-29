@@ -89,7 +89,7 @@ export const Industries = () => {
                         <p className="eyebrow">Market Context</p>
                         <h2>The model adapts to your sector. The standard of strategic discipline does not.</h2>
                     </div>
-                    <a className="button button-primary" href="contact.html">Discuss Your Market</a>
+                    <a className="button button-primary" href="/contact">Discuss Your Market</a>
                 </div>
             </section>
         </>

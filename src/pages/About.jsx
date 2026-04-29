@@ -86,7 +86,7 @@ export default function Home() {
             <p className="eyebrow">Next Step</p>
             <h2>If the issue is no longer effort, but structure, Zerologic is designed for that moment.</h2>
           </div>
-          <a className="button button-primary" href="contact.html">Start A Conversation</a>
+          <a className="button button-primary" href="/contact">Start A Conversation</a>
         </div>
       </section>
     </>

@@ -76,7 +76,7 @@ export const Proof = () => {
             <p className="eyebrow">Relevant Example</p>
             <h2>If you want a proof narrative closer to your situation, the first conversation can be tailored around that.</h2>
           </div>
-          <a className="button button-primary" href="contact.html">Request A Relevant Example</a>
+          <a className="button button-primary" href="/contact">Request A Relevant Example</a>
         </div>
       </section>
     </>

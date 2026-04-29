@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
@@ -12,6 +12,21 @@ export default function Header() {
   const closeNav = () => {
     setNavOpen(false);
   };
+
+  useEffect(() => {
+    if (navOpen) {
+      document.body.classList.add("nav-open");
+    } else {
+      document.body.classList.remove("nav-open");
+    }
+    return () => {
+      document.body.classList.remove("nav-open");
+    };
+  }, [navOpen]);
+
+  useEffect(() => {
+    closeNav();
+  }, [location]);
 
   const isActive = (path) => location.pathname === path;
 

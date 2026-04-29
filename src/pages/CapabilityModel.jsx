@@ -7,17 +7,17 @@ export const CapabilityModel = () => {
   const activeStage = maturityStages.find(s => s.id === activeId);
   return (
    <>
-      <section class="page-hero">
-        <div class="container page-hero-grid">
+      <section className="page-hero">
+        <div className="container page-hero-grid">
           <div>
-            <p class="eyebrow">Capability Model</p>
+            <p className="eyebrow">Capability Model</p>
             <h1>A maturity model for businesses moving from reactive execution to scalable performance.</h1>
-            <p class="hero-text">
+            <p className="hero-text">
               Scale is not created by doing more. It is created by building better operating capability.
             </p>
           </div>
-          <aside class="page-hero-card">
-            <p class="panel-label">Use this page to</p>
+          <aside className="page-hero-card">
+            <p className="panel-label">Use this page to</p>
             <ul class="plain-list">
               <li>Identify your current maturity stage</li>
               <li>Recognize structural gaps</li>
@@ -84,10 +84,10 @@ export const CapabilityModel = () => {
       </div>
     </section>
 
-      <section class="section muted-section">
-        <div class="container preview-grid ">
-          <article class="preview-card">
-            <p class="panel-label">Stage Signals</p>
+      <section className="section muted-section">
+        <div className="container preview-grid ">
+          <article className="preview-card">
+            <p className="panel-label">Stage Signals</p>
             <h3>Reactive to emerging</h3>
             <p>Leadership intervention remains high, prioritization is unstable, and systems are not yet carrying complexity.</p>
           </article>
@@ -104,13 +104,13 @@ export const CapabilityModel = () => {
         </div>
       </section>
 
-      <section class="section">
-        <div class="container final-cta-card ">
+      <section className="section">
+        <div className="container final-cta-card ">
           <div>
-            <p class="eyebrow">Next Step</p>
+            <p className="eyebrow">Next Step</p>
             <h2>Once the maturity gap is clear, the right intervention becomes much easier to define.</h2>
           </div>
-          <a class="button button-primary" href="contact.html">Assess Your Current Stage</a>
+          <a className="button button-primary" href="/contact">Assess Your Current Stage</a>
         </div>
       </section>
     </>
